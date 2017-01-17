@@ -90,6 +90,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setContentView(R.layout.activity_main);
         Log.d("json", "onCreatdde: ");
 
+        Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
+
 
 
         mTextName = (TextView) findViewById(R.id.mTextName);
