@@ -91,8 +91,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Log.d("json", "onCreatdde: ");
 
         Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
-
-
+        Log.d("hihihaha", "text test: ");
 
         mTextName = (TextView) findViewById(R.id.mTextName);
         mList = (RecyclerView) findViewById(R.id.mList);
