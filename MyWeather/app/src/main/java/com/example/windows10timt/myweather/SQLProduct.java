@@ -12,6 +12,7 @@ public class SQLProduct {
     public String pressure;
 
 
+
     public SQLProduct(String city, String temp, String speed, String humidity, String pressure) {
         this.city = city;
         this.temp = temp;
