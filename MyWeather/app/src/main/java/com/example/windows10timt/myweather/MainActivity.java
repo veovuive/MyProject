@@ -92,6 +92,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
         Log.d("hihihaha", "text test: ");
+
+        Log.d("fsdfdsfsdf", "onCreate: ");
         mTextName = (TextView) findViewById(R.id.mTextName);
         mList = (RecyclerView) findViewById(R.id.mList);
         mImageSearch = (ImageView) findViewById(R.id.imageSearch);
